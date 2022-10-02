@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ========================== 
+This For ALl Chars
+===========================
+*/
+
+.img{
+    width: 100%;
+    height: 45vh !important;
+}
+
+.card-chars{
+    height: 100%;
+}

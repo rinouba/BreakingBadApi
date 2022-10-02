@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script defer src="index.js"></script>
+    <script defer src="index2.js"></script>
+    <title>Breaking Bad</title>
+</head>
+<body class="bg-dark text-white">
+
+    <nav>
+        <div class="container text-center mt-5">
+            <div class="d-inline-flex pe-5"><button class="btn btn-success">All Characters</button></div>
+            <div class="d-inline-flex pe-5"><button class="btn btn-warning">All Episodes</button></div>
+            <div class="d-inline-flex pe-5"><button class="btn btn-danger">All Quotes</button></div>
+        </div>
+    </nav>
+
+    <div class="text-center container">
+
+    <div class="pages" id="Page1">
+       <div class="display-3 fw-bold m-5"> All Characters</div>
+        <div class="row d-flex justify-content-evenly" id="AllCharacters">
+
+        </div>
+    </div>
+        
+      <div class="pages" id="Page2" style="display:none">
+        <div class="display-3 fw-bold m-5"> All Episodes</div>
+        <div class="row d-flex justify-content-evenly" id="AllEpisodes">
+
+        </div>
+      </div>
+    
+      <div class="pages" id="Page3" style="display:none">
+        <div class="display-3 fw-bold m-5"> All Quotes</div>
+        <div class="row d-flex justify-content-evenly" id="AllQuotes">
+
+        </div>
+      </div>
+        </div>
+</body>
+</html>
